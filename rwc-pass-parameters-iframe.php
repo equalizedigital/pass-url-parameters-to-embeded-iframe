@@ -27,8 +27,9 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'RWC_Pass_Parameters_iframe', '1.0.0' );
 
 // Load necesary JS
-function rwc_pass_parameters_enqueue_script() {   
-    wp_enqueue_script( 'rwc_pass_parameters_script', plugin_dir_url( __FILE__ ) . 'js/rwc-pass-parameters.js', array('jquery'), '1.0' );
+function rwc_pass_parameters_enqueue_script() { 
+
+	wp_enqueue_script( 'rwc_pass_parameters_script', plugin_dir_url( __FILE__ ) . 'js/rwc-pass-parameters.js', array('jquery'), '1.0' );
 }
 add_action('wp_enqueue_scripts', 'rwc_pass_parameters_enqueue_script');
 
