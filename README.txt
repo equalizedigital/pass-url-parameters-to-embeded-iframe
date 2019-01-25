@@ -1,9 +1,9 @@
 === Pass URL Parameters to Embeded iFrame ===
-Contributors: roadwarriorwp, alh0319
+Contributors: roadwarriorwp, alh0319, stevejonesdev
 Donate link: https://roadwarriorcreative.com/donate/
 Tags: Eventbrite, parameters, iframe
 Requires at least: 3.0.1
-Tested up to: 4.9.8
+Tested up to: 5.0.3
 Stable tag: 4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -53,3 +53,6 @@ If your iframe source URL already has parameters we take that into account and d
 
 = 1.0 =
 * Everything is shiny and new!
+
+= 1.0.1 =
+* Added support for iFrame URLs that already contain parameters.
