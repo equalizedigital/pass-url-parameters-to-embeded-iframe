@@ -1,4 +1,4 @@
-=== Pass URL Parameters to Embeded iFrame ===
+=== Pass URL Parameters to Embedded iFrame ===
 Contributors: roadwarriorwp, alh0319, stevejonesdev
 Donate link: https://roadwarriorcreative.com/donate/
 Tags: Eventbrite, parameters, iframe
@@ -8,13 +8,13 @@ Stable tag: 4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Pass URL parameters from the embeded page URL to iframe source URL.  
+Pass URL parameters from the embedded page URL to iframe source URL.  
 
 == Description ==
 
 This plugin will parse the web address on page load looking for parameters, and add those parameters to the source URL for any iframe with a specific ID.  
 
-Example use case: pass discount and affiliate codes via page URL to embeded Eventbrite tickets widgets.   
+Example use case: pass discount and affiliate codes via page URL to embedded Eventbrite tickets widgets.   
 
 == Installation ==
 

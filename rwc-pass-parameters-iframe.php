@@ -6,8 +6,8 @@
  * @package           RWC_Pass_Parameters_iframe
  *
  * @wordpress-plugin
- * Plugin Name:       Pass URL Parameters to Embeded iFrame
- * Description:       Allows parameters to pass from the embeded page URL to iframe source URL
+ * Plugin Name:       Pass URL Parameters to Embedded iFrame
+ * Description:       Allows parameters to pass from the embedded page URL to iframe source URL
  * Version:           1.0.1
  * Author:            Road Warrior Creative
  * Author URI:        https://roadwarriorcreative.com
