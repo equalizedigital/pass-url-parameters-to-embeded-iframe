@@ -47,7 +47,7 @@ Yes, this plugin will function with different iframes loading unique content, so
 
 = What if the iframe source URL already has paramters? =
 
-If your iframe source URL already has parameters we take that into account and don't add another question mark.  Everything will work as expected.
+If your iframe source URL already has parameters we take that into account and don't add another question mark. Everything will work as expected.
 
 == Changelog ==
 
