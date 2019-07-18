@@ -12,15 +12,18 @@
 	$(window).load(function() {
 		var iframe = document.getElementById("rwcGetParams");
 		if (document.contains(iframe)) {
-			var loc = window.location.toString();
-			var params = loc.split('?')[1];
-			if( iframe.src.indexOf('?') >= 0){
-				var query = '&';
-			}else{
-				var query = '?';
+			var loc = window.location.toString(),
+					params = loc.split('?')[1],
+					query;
+			if (params){
+				if( iframe.src.indexOf('?') >= 0){
+					query = '&';
+				}else{
+					query = '?';
+				}
+				newsrc = iframe.src + query + params;
+				$('#rwcGetParams').attr('src', newsrc);
 			}
-			newsrc = iframe.src + query + params;
-			$('#rwcGetParams').attr('src', newsrc);
 		}
 	});
 });

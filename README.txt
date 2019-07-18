@@ -51,8 +51,11 @@ If your iframe source URL already has parameters we take that into account and d
 
 == Changelog ==
 
-= 1.0 =
-* Everything is shiny and new!
+= 1.0.2 =
+* Added a check for defined parameters to prevent a value of undefined from being passed to the iframe.
 
 = 1.0.1 =
 * Added support for iFrame URLs that already contain parameters.
+
+= 1.0 =
+* Everything is shiny and new!

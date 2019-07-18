@@ -2,13 +2,13 @@
 
 /**
  * @link              https://roadwarriorcreative.com
- * @since             1.0.1
+ * @since             1.0.0
  * @package           RWC_Pass_Parameters_iframe
  *
  * @wordpress-plugin
  * Plugin Name:       Pass URL Parameters to Embedded iFrame
  * Description:       Allows parameters to pass from the embedded page URL to iframe source URL
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Road Warrior Creative
  * Author URI:        https://roadwarriorcreative.com
  * License:           GPL-2.0+
@@ -23,7 +23,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Define current plugin version.
-define( 'RWC_Pass_Parameters_iframe', '1.0.1' );
+define( 'RWC_Pass_Parameters_iframe', '1.0.2' );
 
 // Load necesary JS
 function rwc_pass_parameters_enqueue_script() { 
