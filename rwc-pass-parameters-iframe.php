@@ -8,7 +8,7 @@
  * @wordpress-plugin
  * Plugin Name:       Pass URL Parameters to Embedded iFrame
  * Description:       Allows parameters to pass from the embedded page URL to iframe source URL
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            Road Warrior Creative
  * Author URI:        https://roadwarriorcreative.com
  * License:           GPL-2.0+

@@ -3,8 +3,8 @@ Contributors: roadwarriorwp, alh0319, stevejonesdev
 Donate link: https://roadwarriorcreative.com/donate/
 Tags: Eventbrite, parameters, iframe
 Requires at least: 3.0.1
-Tested up to: 5.2.2
-Stable tag: 4.9
+Tested up to: 6.0.1
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,9 @@ Yes, this plugin will function with different iframes loading unique content, so
 If your iframe source URL already has parameters we take that into account and don't add another question mark. Everything will work as expected.
 
 == Changelog ==
+
+= 1.0.3 =
+* Test with current WordPress version
 
 = 1.0.2 =
 * Added a check for defined parameters to prevent a value of undefined from being passed to the iframe.
