@@ -3,7 +3,7 @@
  *
  * @author Road Warrior Creative
  * @link https://roadwarriorcreative.com
- * @package RWC_Pass_Parameters_iframe
+ * @package Pass_Parameters_iframe
  * @version 1.0.1
  * @license GPL-2.0+
  */

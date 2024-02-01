@@ -1,0 +1,48 @@
+{
+  "name": "pass-url-parameters-to-embeded-iframe",
+  "version": "1.0.0",
+  "description": "Pass URL Parameters to Embeded iframe",
+  "author": "Equalize Digital",
+  "license": "GPL-2.0+",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development",
+    "watch": "webpack --watch --mode development",
+    "dist": "npx webpack --mode production && composer install --no-dev && composer dump-autoload --no-dev -o && ./scripts/dist.sh && composer install",
+    "lint": "./vendor/bin/phpcs && npm run lint:js",
+    "lint:php": "./vendor/bin/phpcs",
+    "lint:js": "wp-scripts lint-js",
+    "lint:js:fix": "wp-scripts lint-js --fix",
+    "prepare": "husky"
+  },
+  "files": [
+    "license.txt",
+    "readme.txt",
+    "pass-url-parameters-to-embeded-iframe.php",
+    "admin",
+    "build",
+    "inc",
+    "vendor"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-react": "^7.22.3",
+    "@wordpress/eslint-plugin": "^17.5.0",
+    "@wordpress/scripts": "^26.5.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "husky": "^9.0.6",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^7.0.3",
+    "sass-loader": "^13.3.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
