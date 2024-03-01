@@ -1,5 +1,5 @@
 === Pass URL Parameters to Embedded iFrame ===
-Contributors: equalizedigital, roadwarriorwp, alh0319, stevejonesdev
+Contributors: equalizedigital, alh0319, stevejonesdev
 Donate link: https://roadwarriorcreative.com/donate/
 Tags: Eventbrite, parameters, iframe
 Requires at least: 6.2

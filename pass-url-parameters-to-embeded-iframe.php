@@ -9,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:       Pass URL Parameters to Embedded iFrame
  * Description:       Allows parameters to pass from the embedded page URL to iframe source URL
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Equalize Digital
  * Author URI:        https://equalizedigital.com
  * License:           GPL-2.0+
@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 // Current plugin version.
 if ( ! defined( 'EDPPI_VERSION' ) ) {
-	define( 'EDPPI_VERSION', '1.0.3' );
+	define( 'EDPPI_VERSION', '1.0.4' );
 }
 
 // Plugin Folder Path.
