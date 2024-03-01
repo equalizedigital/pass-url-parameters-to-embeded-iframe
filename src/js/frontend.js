@@ -31,6 +31,6 @@ EDPPI.IframeParameterAppender = class {
 };
 
 // Usage
-new EDPPI.IframeParameterAppender(['rwcGetParams', 'eqdGetParams']);
+new EDPPI.IframeParameterAppender(['rwcGetParams', 'eqd-get-params']);
 // Or for a single iframe
 //new EDPPI.IframeParameterAppender('rwcGetParams');
