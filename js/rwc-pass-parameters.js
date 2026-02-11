@@ -1,9 +1,9 @@
 /**
  * This script passes URL parameters to iframes with specified ids
  *
- * @author Road Warrior Creative
- * @link https://roadwarriorcreative.com
- * @package RWC_Pass_Parameters_iframe
+ * @author Equalize Digital
+ * @link https://equalizedigital.com
+ * @package Pass_Parameters_iframe
  * @version 1.0.1
  * @license GPL-2.0+
  */
