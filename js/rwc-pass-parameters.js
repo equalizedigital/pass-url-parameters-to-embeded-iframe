@@ -4,7 +4,7 @@
  * @author Equalize Digital
  * @link https://equalizedigital.com
  * @package Pass_Parameters_iframe
- * @version 1.0.1
+ * @version 1.1.0
  * @license GPL-2.0+
  */
  
