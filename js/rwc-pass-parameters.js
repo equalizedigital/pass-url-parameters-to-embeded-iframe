@@ -9,20 +9,21 @@
  */
 
 jQuery(function($){
-	$(window).load(function() {
-		var iframe = document.getElementById("rwcGetParams");
-		if (document.contains(iframe)) {
+	$(window).on('load', function() {
+		var iframe = $('#rwcGetParams');
+		if (iframe.length) {
 			var loc = window.location.toString(),
-					params = loc.split('?')[1],
-					query;
+				params = loc.split('?')[1],
+				query,
+				newsrc;
 			if (params){
-				if( iframe.src.indexOf('?') >= 0){
+				if( iframe.attr('src').indexOf('?') >= 0){
 					query = '&';
 				}else{
 					query = '?';
 				}
-				newsrc = iframe.src + query + params;
-				$('#rwcGetParams').attr('src', newsrc);
+				newsrc = iframe.attr('src') + query + params;
+				iframe.attr('src', newsrc);
 			}
 		}
 	});

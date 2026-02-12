@@ -1,5 +1,5 @@
 === Pass URL Parameters to Embedded iFrame ===
-Contributors: roadwarriorwp, alh0319, stevejonesdev
+Contributors: equalizedigital, roadwarriorwp, alh0319, stevejonesdev
 Donate link: https://roadwarriorcreative.com/donate/
 Tags: Eventbrite, parameters, iframe
 Requires at least: 6.7
@@ -21,7 +21,7 @@ Example use case: pass discount and affiliate codes via page URL to embedded Eve
 1. Install via WordPress.org plugin directory (coming soon!)...or...
 2. Download zip file, unzip, and upload rwc-pass-parameters-to-iframe directory to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Add id="rwcGetParams" to any iframes you want to retrive parameters from page URL
+4. Add id="rwcGetParams" to any iframes you want to retrieve parameters from page URL
 
 == Frequently Asked Questions ==
 
@@ -45,11 +45,17 @@ No. Currently, this plugin will NOT support multiple iframes on the same page, u
 
 Yes, this plugin will function with different iframes loading unique content, so long as they are on different pages of your website.
 
-= What if the iframe source URL already has paramters? =
+= What if the iframe source URL already has parameters? =
 
 If your iframe source URL already has parameters we take that into account and don't add another question mark. Everything will work as expected.
 
 == Changelog ==
+
+= 1.1.0 =
+* Update function and constant prefixes for consistency
+* Fix deprecated jQuery .load() method
+* Improve code documentation with proper PHPDoc blocks
+* Load JavaScript in footer for better performance
 
 = 1.0.3 =
 * Test with current WordPress version
