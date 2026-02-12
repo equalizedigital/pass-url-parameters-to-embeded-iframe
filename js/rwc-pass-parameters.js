@@ -7,8 +7,8 @@
  * @version 1.1.0
  * @license GPL-2.0+
  */
- 
- jQuery(function($){
+
+jQuery(function($){
 	$(window).load(function() {
 		var iframe = document.getElementById("rwcGetParams");
 		if (document.contains(iframe)) {
