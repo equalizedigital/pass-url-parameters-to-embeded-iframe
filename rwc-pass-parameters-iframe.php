@@ -41,6 +41,6 @@ define( 'EDPPI_VERSION', '1.1.0' );
  * @return void
  */
 function edppi_enqueue_script() { 
-	wp_enqueue_script( 'edppi_pass_parameters_script', plugin_dir_url( __FILE__ ) . 'js/rwc-pass-parameters.js', array('jquery'), EDPPI_VERSION, true );
+	wp_enqueue_script( 'edppi_script', plugin_dir_url( __FILE__ ) . 'js/rwc-pass-parameters.js', array('jquery'), EDPPI_VERSION, true );
 }
 add_action('wp_enqueue_scripts', 'edppi_enqueue_script');
